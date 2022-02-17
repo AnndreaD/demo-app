@@ -1,4 +1,4 @@
-export type FeatureFlags = "ENABLE_SHORT_FORM";
+export type FeatureFlags = "ENABLE_NEW_FORM";
 
 const baseUrl = "http://localhost:4000/featureflags/all";
 

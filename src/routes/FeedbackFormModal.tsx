@@ -8,6 +8,7 @@ export const FeedbackformModal = () => {
   const { isShown, toggle } = useModal();
   const [email, setEmail] = useState<string>("");
   const [name, setName] = useState<string>("");
+  const [feedback, setFeedback] = useState<string>("");
 
   const handleSubmit = () => {
     console.log(email, name);
@@ -29,6 +30,13 @@ export const FeedbackformModal = () => {
         label={"Email *"}
         onChange={(e) => setEmail(e.target.value)}
         value={email}
+      ></Input>
+      <Input
+        name={"feedback"}
+        placeholder={""}
+        label={"where did you hear about us?"}
+        onChange={(e) => setFeedback(e.target.value)}
+        value={feedback}
       ></Input>
     </>
   );

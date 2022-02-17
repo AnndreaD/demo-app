@@ -14,11 +14,7 @@ export const Main = () => {
   }, [dispatch]);
   return (
     <>
-      {featureflag.ENABLE_SHORT_FORM ? (
-        <ShortFormModal />
-      ) : (
-        <FeedbackformModal />
-      )}
+      {featureflag.ENABLE_NEW_FORM ? <ShortFormModal /> : <FeedbackformModal />}
     </>
   );
 };
