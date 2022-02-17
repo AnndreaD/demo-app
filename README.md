@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project uses:
 - React TS
-- React bootsrap for components
+- Styled components
 - Redux with thunk middlewear and persist
 
 ## Available Scripts
